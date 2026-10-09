@@ -27,10 +27,8 @@ One-time setup
 cd chatbot && chainlit run 4_authentication.py --port 10000 --host 0.0.0.0
 ```
 
-The URL for our demo logo: 
-```
-https://static.thenounproject.com/png/3468363-512.png
-```
+Each chatbot includes local `public/logo_dark.png` and `public/logo_light.png`
+assets, so the logo works without relying on an external image host.
 
 ### Adding Authentication
 1) Generate a Chainlit Secret: `chainlit create-secret`
